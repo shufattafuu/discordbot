@@ -1,10 +1,14 @@
 {
   "name": "discord_bot",
+  "type": "module",
   "version": "1.0.0",
   "description": "Email reading bot",
   "main": "main.js",
   "author": "Fistik",
   "license": "MIT",
+  "scripts": {
+  	"start": "nodemon main.js"
+  },
   "dependencies": {
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
